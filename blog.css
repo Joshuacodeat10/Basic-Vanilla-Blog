@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+.header{
+    font-weight: bold;
+    font-family: Arial;
+    display: flex;
+    color:white;
+    justify-content: center;
+    background-color: black;
+    padding:1rem;
+}
+.blog-posts{
+    padding:1.5rem 1.5rem;
+    display: flex;
+    width:100%;
+    font-family: Arial;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blog-posts .posts{
+    box-shadow:1px 1px 3px;
+   padding:0.5rem;
+    width:50%;
+}
+.blog-posts .posts h2{
+    text-transform: capitalize;
+}
+.delete{
+    background-color: red;
+    text-transform: capitalize;
+    border:none;
+    border-radius:3px;
+    padding:10px;
+    color:white;
+}
+.blog-posts .posts .btn{
+
+}
